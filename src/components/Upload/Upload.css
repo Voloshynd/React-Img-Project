@@ -1,0 +1,62 @@
+.uploadBox {
+  width: 450px;
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  margin: 50% 0;
+  border: 2px solid black;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #e2f1f8;
+}
+h4 {
+  text-align: center;
+  color: #0069c0;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin: 30px;
+}
+.buttonFlex {
+  display: flex;
+  justify-content: center;
+}
+.uploadButton {
+  width: 50%;
+  font-weight: 600;
+  cursor: pointer;
+}
+.inputsContainer {
+  display: flex;
+}
+.inputsName {
+  font-weight: 600;
+  color: #0069c0;
+  margin: 0px 10px;
+  font-size: 1.2rem;
+}
+input {
+  margin-top: 20px;
+  width: 160px;
+}
+.inputsBox {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.btn {
+  color: #ffffff;
+  background: #0095a8;
+  font-size: 1.1rem;
+  width: 90px;
+  border: 1px solid #4b2c20;
+  padding: 2px;
+  margin-top: 16px;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+@media only screen and (max-width: 992px) {
+  .btn:hover {
+    transform: none;
+  }
+}

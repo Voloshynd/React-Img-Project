@@ -1,0 +1,19 @@
+.error {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100%;
+}
+p {
+  margin-top: 20px;
+  font-weight: 600;
+  font-family: "Roboto";
+}
+button {
+  margin-top: 20px;
+  background-color: #0095a8;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight: 600;
+}
