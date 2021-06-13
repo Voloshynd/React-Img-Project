@@ -13,7 +13,7 @@ export const dataPictures = [
     upvotes: 0,
     downvotes: 0,
     hasStar: false,
-    img: "/Image/image2.jpg",
+    img: process.env.PUBLIC_URL + "/Image/image2.jpg",
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const dataPictures = [
     upvotes: 0,
     downvotes: 0,
     hasStar: false,
-    img: "/Image/image3.jpg",
+    img: process.env.PUBLIC_URL + "/Image/image3.jpg",
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export const dataPictures = [
     upvotes: 0,
     downvotes: 0,
     hasStar: false,
-    img: "/Image/image4.jpg",
+    img: process.env.PUBLIC_URL + "/Image/image4.jpg",
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ export const dataPictures = [
     upvotes: 0,
     downvotes: 0,
     hasStar: false,
-    img: "/Image/image5.jpg",
+    img: process.env.PUBLIC_URL +"/Image/image5.jpg",
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ export const dataPictures = [
     upvotes: 0,
     downvotes: 0,
     hasStar: false,
-    img: "/Image/image6.jpg",
+    img: process.env.PUBLIC_URL + "/Image/image6.jpg",
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ export const dataPictures = [
     upvotes: 0,
     downvotes: 0,
     hasStar: false,
-    img: "/Image/image7.jpg",
+    img: process.env.PUBLIC_URL + "/Image/image7.jpg",
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ export const dataPictures = [
     upvotes: 0,
     downvotes: 0,
     hasStar: false,
-    img: "/Image/image8.jpg",
+    img: process.env.PUBLIC_URL + "/Image/image8.jpg",
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ export const dataPictures = [
     upvotes: 0,
     downvotes: 0,
     hasStar: false,
-    img: "/Image/image9.jpg",
+    img: process.env.PUBLIC_URL + "/Image/image9.jpg",
   },
   {
     id: 10,
@@ -77,6 +77,6 @@ export const dataPictures = [
     upvotes: 0,
     downvotes: 0,
     hasStar: false,
-    img: "/Image/image10.jpg",
+    img: process.env.PUBLIC_URL + "/Image/image10.jpg",
   },
 ];
