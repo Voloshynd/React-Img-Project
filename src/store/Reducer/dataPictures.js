@@ -5,7 +5,7 @@ export const dataPictures = [
     upvotes: 0,
     downvotes: 0,
     hasStar: false,
-    img: "/Image/image1.jpg",
+    img: process.env.PUBLIC_URL +"/Image/image1.jpg",
   },
   {
     id: 2,
